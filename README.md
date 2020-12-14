@@ -10,16 +10,16 @@
 | [#1 HTML](assignment-1/) | NaN | 07/01 | 0.7p | |
 | [#2 CSS](assignment-2/) | NaN | 15/01 | 0.7p |  |
 | [#3 Page prototype](assignment-3/) | NaN | 29/02 | 1.4p |  |
-| [#4 JavaScript](assignment-4/) | NaN | 12/02 | 1.3p |  |
-| [#5 Vue Memory](assignment-5/) | NaN | 26/02 | 1.3p |  |
-| [#6 Templates](assignment-6/) | NaN | 12/03 | 1p |  |
-| [#7 AJAX](assignment-7/) | NaN | 26/03 | 1p |  |
-| [#8 Online shop](assignment-8/) | NaN | 09/04 | 1p |  |
-| [#9 Circuit Wars](assignment-9/) | NaN | 23/04 | 1p |  |
+| [#4 JavaScript](assignment-4/) | 29/02 | 12/02 | 1.3p |  |
+| [#5 Vue Memory](assignment-5/) | 12/02 | 26/02 | 1.3p |  |
+| [#6 Templates](assignment-6/) | 26/02 | 12/03 | 1p |  |
+| [#7 AJAX](assignment-7/) | 12/03 | 26/03 | 1p |  |
+| [#8 Online shop](assignment-8/) | 26/03 | 09/04 | 1p |  |
+| [#9 Circuit Wars](assignment-9/) | 09/04 | 23/04 | 1p |  |
 
 
 
-[This document](https://github.com/dat310-spring20/course-info/blob/master/HOWTO_GitHub.md) explains how to hand in the assignments on GitHub.
+[This document](https://github.com/dat310-spring21/course-info/blob/master/autograder.md) explains how to hand in the assignments on GitHub.
 
 ## Requirements
 
