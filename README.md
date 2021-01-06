@@ -7,7 +7,7 @@
 
 | Assignment | Announced | Deadline | Points | Solution |
 | --- | --- | --- | --- | --- |
-| [#1 HTML](assignment-1/) | NaN | 07/01 | 0.7p | |
+| [#1 HTML](assignment-1/) | NaN | 09/01 | 0.7p | |
 | [#2 CSS](assignment-2/) | NaN | 15/01 | 0.7p |  |
 | [#3 Page prototype](assignment-3/) | NaN | 29/02 | 1.4p |  |
 | [#4 JavaScript](assignment-4/) | 29/02 | 12/02 | 1.3p |  |
