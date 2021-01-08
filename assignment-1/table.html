@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>Table that has a heading row and body</h2>
+
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Ross</td>
+    <td rowspan="2">Geller</td>
+    <td>USA</td>
+  </tr>
+  <tr>
+    <td>Monica</td>
+    <td>USA</td>
+  </tr>
+  <tr>
+    <td>Pheobe</td>
+    <td>Buffay</td>
+    <td>USA</td>
+  </tr>
+  <tr>
+    <td>Rachel</td>
+    <td>Green</td>
+    <td>USA</td>
+  </tr>
+  <tr>
+    <td>Chandler</td>
+    <td>Bing</td>
+    <td>USA</td>
+  </tr>
+  <tr>
+    <td>Joey</td>
+    <td>Tribbiani</td>
+    <td>Italy</td>
+  </tr>
+  <tr>
+    <td colspan="2">Smelly cat</td>
+    <td>Streets</td>
+  </tr>
+</table>
+
+</body>
+</html>
