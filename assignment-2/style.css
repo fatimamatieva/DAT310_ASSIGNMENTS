@@ -1,1 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
 /* write CSS here */
+/* General */
+body {
+  /* The backgrounds of the header and footer extend to the borders of the browser window  */
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  /* All text is 10px from the left and right sides of the browser window */
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* The links are not underlined */
+a {
+  text-decoration: none;
+}
+
+/* ..., only on mouseover */
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  /* Unless otherwise stated, all fonts are Verdana, with sans-serif as a second option */
+  font-family: Verdana, sans-serif;
+}
+
+h2,
+h3 {
+  /* Unless otherwise stated, all second and third-level headings are in Open Sans, with sans-serif as a second option. */
+
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Header */
+#header {
+  /* Background color is royalblue */
+  background-color: royalblue;
+  /* The entire header section (div) has 5px wide outset border in lightblue */
+  border: 5px outset lightblue;
+}
+
+#header h1,
+#header h2,
+#header h3,
+#header h4 {
+  /* Headings are in white and have a shadow colored #333 */
+  color: white;
+  text-shadow: 1px 3px #333;
+}
+
+#header h2 {
+  /* The second header has a size of 1.2em, is written using the font Garamond, with serif as a second option, and is in italic */
+  font-family: Garamond, serif;
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+/* There is no vertical space between the first and second headings  */
+#header h1 {
+  /* set both the bottom margin of the first heading to 0px */
+  margin-bottom: 0px;
+}
+
+#header h2 {
+  /* and the top margin of the second heading to 0px */
+  margin-top: 0px;
+}
+
+#content h2 {
+  border-bottom: 1px #999999 solid;
+}
+
+#content .rank {
+  background-color: black;
+  color: white;
+}
+
+#content a {
+  color: blue;
+}
+
+#content p {
+  color: #999999;
+  background-color: white;
+  text-align: justify;
+  text-indent: 2em;
+}
+
+#content p::first-line {
+  color: black;
+}
+
+/* Footer  */
+#footer {
+  /* The footer has a black background */
+  background-color: black;
+}
+
+#footer h2,
+#footer li,
+#footer a {
+  /* The heading and list items are white */
+  color: white;
+}
+
+#footer li:first-child,
+#footer li:first-child + li {
+  /* The first two list items have a disc symbol */
+  list-style-type: disc;
+}
+
+#footer ul {
+  /* , the rest have a circle symbol  */
+  list-style-type: circle;
+}
+
+#footer li:first-child + li a {
+  /* The second list item (February) is bold */
+  font-weight: bold;
+}
+
+#footer p {
+  /* The copyright paragraph is center aligned, yellow, and in oblique. */
+  color: yellow;
+  font-style: oblique;
+  text-align: center;
+  margin-bottom: 0;
+}
