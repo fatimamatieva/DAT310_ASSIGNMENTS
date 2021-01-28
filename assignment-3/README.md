@@ -2,7 +2,7 @@
 
 In this assignment you need to create a prototype for a (online shopping) site using HTML and CSS. The prototype consists of three HTML pages (front page `index.html`, product page `product.html`, and shopping cart/checkout `cart.html`) and a single stylesheet file (`style.css`).
 
-Under the `samples/` folder of the starting files (in your private GitHub repository) you will find screenshots that serve as examples of what you need to create. You don't have to produce the exact same output that is shown on the samples, you can deviate from it in any way you want (especially in the content) as long as you follow the instructions given below.
+Under the `samples/` folder you will find screenshots that serve as examples of what you need to create. You don't have to produce the exact same output that is shown on the samples, you can deviate from it in any way you want (especially in the content) as long as you follow the instructions given below.
 
 Note that you only create a mockup. The content does not have to be dynamic. We will do that in a later lab.
 
