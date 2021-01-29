@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap%22");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap%22");
+
+h1, h2, h3, h4{
+  font-family: "Montserrat", sans-serif;
+}
+
+*{
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  height: 100%;
+}
+
+body{
+  background-color: white;
+  min-height: 100%;
+}
+
+header{
+  height: 40px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background-color: #EDE0BE;
+}
+
+#logo{
+  height: 60px;
+  left: 5%;
+  position: absolute;
+  background-color: #77899F;
+}
+
+nav{
+  right: 5%;
+  position: absolute;
+
+}
+
+nav ul{
+  list-style: none;
+}
+
+nav ul li{
+  float: left;
+  color: #77899F;
+  padding: 20px;
+}
+
+main{
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  /*background-color: pink;*/
+  width: 90%;
+  max-width: 1400px;
+  position: relative;
+}
+
+main>h1{
+  background-color: #E2D9BC;
+  font-size: 1.2em;
+  padding: 5px;
+
+}
+
+.framed{
+  border: 1px solid #E2D9BC;
+  font-size: 0.9em;
+  padding: 5px;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 120px;
+  border-top: 5px solid #E2D9BC;
+  background-color: #E2D9BC;
+}
+
+
+aside{
+  width: 300px;
+  position: absolute;
+  right: 0;
+  height: 100%;
+  background-color: #C0D1DB;
+  /* margin-top: 5px;
+  margin-bottom: 5px; */
+  overflow: auto;
+}
+
+
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: 320px;
+  /* background-color: pink; */
+}
+
+.product{
+  flex: 280px;
+  padding: 10px;
+  position: relative;
+  margin: 10px;
+}
+
+.product a{
+  flex: i
+}
+
+.product:hover{
+  background-color: #EDE0BE;
+}
+
+
+img{
+  width: 100%;
+  
+}
+
+.discount{
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  background: #EDE0BE;
+  font-size: 2em;
+
+}
+
+.price{
+  float: right;
+}
+
+
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid #77899F;
+  border-radius: 3px;
+}
+
+/* input[type=text] {
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+} */
+
+
+label {
+  margin-bottom: 10px;
+  width:7em;
+  display: inline-block;
+}
+
+fieldset{
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #E2D9BC;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #77899F;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+
+/* Linas product.html */
+
+#this-product{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.bilde{
+  flex: 300px;
+  position: relative;
+}
+
+.purchase{
+  flex: 300px;
+  margin: 20px;
+}
+
+h1.withbg{
+  background-color: #77899F;
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.description{
+  width: 100%;
+}
+
+.purchase-wrapper{
+  margin-top: 20px;
+}

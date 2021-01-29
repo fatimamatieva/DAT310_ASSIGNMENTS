@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="logo">ICY</div>
+        <nav> 
+            <ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="product.html">Product</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cart.html">Cart</a>
+                </li>
+            </ul>
+        </nav>
+        
+        </header>
+    
+    <main>
+        <head><h1>CART</h1></head>
+        <table border=1 frame=void rules=rows style="margin-left: auto; margin-right: auto;border: 5px solid #77899F;width: 100%; text-align: center; padding: 15px;height: 200px" >
+            <tr>
+                <th>Product</th>
+                <th>Size</th>
+                <th>Count</th>
+                <th>Item price</th>
+                <th>Discount</th>
+                <th>Price</th>
+                <th>Cancel</th>
+            </tr>
+            <tr>
+                <td>Smykke Sirkel Diamant Hvitt Gull</td>
+                <td>ONESIZE</td>
+                <td>1</td>
+                <td>10 000k</td>
+                <td>20</td>
+                <td>8 000k</td>
+                <td><input type="submit" value="X" style="color: white ; background:#77899F;" ></td>
+            </tr>
+            <tr>
+                <td>Smykke Diamant Hvitt Gull</td>
+                <td>L</td>
+                <td>2</td>
+                <td>1 000k</td>
+                <td>0</td>
+                <td>2 000k</td>
+                <td><input type="submit" value="X" style="color: white ; background: #77899F;" ></td>
+            </tr>
+                <tr>
+                <td>Smykke Sirkel Gult Gull</td>
+                <td>ONESIZE</td>
+                <td>1</td>
+                <td>1 500</td>
+                <td>0</td>
+                <td>1 500k</td>
+                <td><input type="submit" value="X" style="color: white ; background: #77899F;" ></td>
+            </tr>
+                <tr>
+                <td>Total</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>11 500k</td>
+                <td></td>
+            </tr>
+        </table>
+        </div>
+        </div>
+
+
+        <div class="framed">
+            <form action="">    
+                <h1>Checkout</h1>
+                <fieldset>
+                    <label for="fname"><i class="fa fa-user"></i> Firstname</label>
+                    <input type="text" id="fname" name="firstname" placeholder="">
+                    <label for="fname"><i class="fa fa-user"></i> Lastname</label>
+                    <input type="text" id="fname" name="firstname" placeholder="">
+                    <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                    <input type="text" id="email" name="email" placeholder="">
+                </fieldset>
+
+                <fieldset>
+                    <label for="adr"><i class="fa fa-address-card-o"></i> Streets</label>
+                    <input type="text" id="adr" name="address" placeholder="">
+                    <label for="city"><i class="fa fa-institution"></i> City</label>
+                    <input type="text" id="city" name="city" placeholder="">
+                    <label for="city"><i class="fa fa-institution"></i> Postal Code</label>
+                    <input type="text" id="city" name="city" placeholder="">
+                </fieldset>
+
+                <fieldset>
+                    <label>
+                        <input type="checkbox" checked="checked" name="sameadr"> Agreeing to terms of service
+                    </label>
+                    <input type="submit" value="Continue to checkout" class="btn">
+                </fieldset>
+
+            </form>
+            </div>
+        </div>  
+    </main> 
+
+
+</body>
+</html>

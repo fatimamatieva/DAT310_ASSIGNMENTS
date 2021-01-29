@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<div id="logo">ICY</div>
+<nav> 
+    <ul>
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="product.html">Product</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="cart.html">Cart</a>
+        </li>
+    </ul>
+</nav>
+
+</header>
+<main>
+    <aside>
+        <a href="cart.html">
+            <h2>Cart</h2>
+        </a>
+        <div class="col-25">
+            <div class="container">
+              <h4>Cart
+                <span class="price" style="color:black">
+                  <i class="fa fa-shopping-cart"></i>
+                  <b>4</b>
+                </span>
+              </h4>
+              <p><a href="#">Smykke Diamant Hvitt Gull</a> <span class="price">$1k</span></p>
+              <p><a href="#">Smykke Hvitt Gull</a> <span class="price">$5k</span></p>
+              <p><a href="#">Smykke Gult Gull</a> <span class="price">$8k</span></p>
+              <p><a href="#">Smykke Gult Gull</a> <span class="price">$2k</span></p>
+              <hr>
+              <p>Total <span class="price" style="color:black"><b>$16</b></span></p>
+            </div>
+          </div>
+        </div>
+    </aside>
+
+    <div class="wrapper">
+        <article id="this-product" class="framed">
+            <div class="bilde">
+                <h2 class="discount">50%</h2>
+                <img src="diamondnecklace.jpg" alt="">
+            </div>
+
+            <div class="purchase">
+                <h3 class="price">10k</h3>
+
+                <div class="productname">
+                    <h3>Necklace</h3>
+                </div>
+                <div class="">A necklace</div>
+
+                <div class="purchase-wrapper">
+                    <label for="period">Count</label>
+                    <select name="count" id="count">
+                        <option value="1">1 stk</option>
+                        <option value="2">2 stk</option>
+                        <option value="3">3 stk</option>
+                        <option value="4">4 stk</option>
+                    </select>
+                    <label for="period">Size</label>
+                    <select name="size" id="size">
+                        <option value="1">S stk</option>
+                        <option value="2">M stk</option>
+                        <option value="3">L stk</option>
+                    </select>
+                    <form>
+                        <label for="fname">Price:</label><br>
+                        <input type="text" id="fname" name="fname" value="5 000"><br>
+                    </form>
+                    
+                    <div id="button">
+                        <input type="submit" value="Add To Cart"/>
+                    </div>
+                </div>
+            </div>
+        </article>   
+
+        <h1 class="withbg">Details</h1>
+
+        <div class="description framed">
+            <p>Smykke. Laget i 585 Hvitt Gull. 14 Karat. Sirkel. Diamant totalt 0,088ct W/s. H:18 mm. B:13 mm. Kjede i sølv medfølger. Lengde 42 cm</p>
+        </div>
+    </div>
+</div>
+
+</main>
+
+<footer>
+    tlf. 1111 1111 <br>
+    email hotmail@hotmail.com
+</footer>
+    
+</body>
+</html>
