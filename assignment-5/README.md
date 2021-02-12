@@ -51,4 +51,4 @@ I mappen `samples/` ligger noen skjermbilder med eksempler. Merk at du bestemmer
 Commit og push filene til GitHub.
 
 Kanskje denne er nyttige:
-[Vuejs card component](https://github.com/dat310-spring20/course-info/tree/master/examples/js/vue2/card)
+[Vuejs card component](https://github.com/dat310-spring21/course-info/tree/master/examples/js/vue2/card)
