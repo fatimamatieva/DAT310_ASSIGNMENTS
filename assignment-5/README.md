@@ -1,4 +1,4 @@
-# Assignment 6 - Vuejs
+# Assignment 5 - Vuejs
 
 The task is to implement a classic memory game using Vuejs.
 
@@ -26,7 +26,7 @@ You may or may not find this example helpfull:
 [Vuejs card component](https://github.com/dat310-spring21/course-info/tree/master/examples/js/vue2/card)
 
 
-# Øving 6 - Vuejs
+# Øving 5 - Vuejs
 
 Oppgaven er å implementere et klassisk memory-spill ved hjelp av Vuejs.
 
