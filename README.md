@@ -7,9 +7,9 @@
 
 | Assignment | Announced | Deadline | Points | Solution |
 | --- | --- | --- | --- | --- |
-| [#1 HTML](assignment-1/) | NaN | 09/01 | 0.7p | |
-| [#2 CSS](assignment-2/) | NaN | 15/01 | 0.7p |  |
-| [#3 Page prototype](assignment-3/) | NaN | 29/01 | 1.4p |  |
+| [#1 HTML](assignment-1/) | NaN | 09/01 | 0.7p | https://github.com/dat310-spring21/solutions/tree/master/1 |
+| [#2 CSS](assignment-2/) | NaN | 15/01 | 0.7p | https://github.com/dat310-spring21/solutions/tree/master/2 |
+| [#3 Page prototype](assignment-3/) | NaN | 29/01 | 1.4p | https://github.com/dat310-spring21/solutions/tree/master/3 |
 | [#4 JavaScript](assignment-4/) | 29/01 | 12/02 | 1.3p |  |
 | [#5 Vue Memory](assignment-5/) | 12/02 | 26/02 | 1.3p |  |
 | [#6 Templates](assignment-6/) | 26/02 | 12/03 | 1p |  |
