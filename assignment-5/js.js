@@ -62,14 +62,14 @@ function spill() {
                             this.flipped = true;
                         } else {
                             this.flipped = true;
-                            if (valg.samling === this.samling) { // Hvis bruker gjetter riktig, fjern kort med SetTimeout
+                            if (valg.samling === this.samling) { 
                                 if (spiller1.turn) {
                                     spiller1.count1++;
                                 } else if (spiller2.turn) {
                                     spiller2.count2++;
                                 }
                                 score.Flippet++;
-                                samlet.push(valg.samling); //legger til listen min slikt at jeg kan se når spillet er ferdig 
+                                samlet.push(valg.samling);
                                 setTimeout((x) => {
                                     x.removed = true;
                                     this.removed = true;
@@ -90,7 +90,7 @@ function spill() {
                                 }
                             }
                         }
-                        valg = undefined; // reset choiceA
+                        valg = undefined; // 
                         console.log("Amount of flips during this game: " + Flippet);
                     }
                     this.function(o.target)
