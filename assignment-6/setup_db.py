@@ -121,7 +121,7 @@ def add_grade(conn, course_id, student_no, grade):
 
     try:
         cur = conn.cursor()
-        cur.execute(sql, (student_no, course_id.strip(), grade))
+        cur.execute(sql, (student_no, course_id.strip(), grade.strip()))
         conn.commit()
     except Error as e:
         print(e)
