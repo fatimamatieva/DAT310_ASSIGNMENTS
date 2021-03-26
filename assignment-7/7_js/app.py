@@ -3,6 +3,8 @@ Assignment #7: AJAX
 """
 
 from flask import Flask, request, g
+import json
+import math
 
 app = Flask(__name__)
 
@@ -17,23 +19,49 @@ class Albums():
 
     def __load_albums(self, albums_file):
         """Loads a list of albums from a file."""
-        # TODO complete
-        pass
+        with open(albums_file) as fil:
+            for linje in fil:
+                print(linje)
+                album_id, artist, title, cover_img = linje.strip().split("\t")
+                self.__albums[album_id] = {
+                    "artist": artist,
+                    "title": title,
+                    "cover_img": cover_img,
+                    "tracks": []
+                }
 
     def __load_tracks(self, tracks_file):
         """Loads a list of tracks from a file."""
-        # TODO complete
-        pass
+        with open(tracks_file) as fil:
+            for linje in fil:
+                album_id, title, length = linje.strip().split("\t")
+                self.__albums[album_id]["tracks"].append({
+                    "title": title,
+                    "length": length
+                })
 
     def get_albums(self):
         """Returns a list of all albums, with album_id, artist and title."""
-        # TODO complete
-        return None
+        all = []
+        for album_id, contents in self.__albums.items():
+            all.append({
+                "album_id": album_id,
+                "artist": contents["artist"],
+                "title": contents["title"]
+            })
+        return all
 
     def get_album(self, album_id):
         """Returns all details of an album."""
-        # TODO complete
-        return None
+        album = self.__albums.get(album_id, None)
+        if album:
+            lengde = 0
+
+            for track in album["tracks"]:
+                m, s = track["length"].split(":")
+                lengde += 60 * int(m) + int(s)
+            album["length"] = "{:02d}:{:02d}".format(math.floor(lengde / 60), lengde % 60)
+        return album
 
 
 # the Albums class is instantiated and stored in a config variable
@@ -45,8 +73,7 @@ app.config["albums"] = Albums("data/albums.txt", "data/tracks.txt")
 def albums():
     """Returns a list of albums (with album_id, author, and title) in JSON."""
     albums = app.config["albums"]
-    # TODO complete (return albums.get_albums() in JSON format)
-    return ""
+    return json.dumps(albums.get_albums())
 
 
 @app.route("/albuminfo")
@@ -54,8 +81,7 @@ def albuminfo():
     albums = app.config["albums"]
     album_id = request.args.get("album_id", None)
     if album_id:
-        # TODO complete (return albums.get_album(album_id) in JSON format)
-        return ""
+        return json.dumps(albums.get_album(album_id))
     return ""
 
 

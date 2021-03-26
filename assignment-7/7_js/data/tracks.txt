@@ -9,19 +9,47 @@
 1	A Whisper	3:58
 1	A Rush of Blood to the Head	5:51
 1	Amsterdam	5:19
-2	Right Next Door to Hell	3:02
-2	Dust N' Bones	4:58
-2	Live and Let Die	3:04
-2	Don't Cry	4:44
-2	Perfect Crime	2:23
-2	You Ain't the First	2:36
-2	Bad Obsession	5:28
-2	Back Off Bitch	5:03
-2	Double Talkin' Jive	3:23
-2	November Rain	8:57
-2	The Garden	5:22
-2	Garden of Eden	2:41
-2	Don't Damn Me	5:18
-2	Bad Apples	4:28
-2	Dead Horse	4:17
-2	Coma	10:13
+2	Always In My Mind	3:36
+2	Magic	4:45
+2	Ink	3:48
+2	True Love	4:05
+2	Midnight	4:54
+2	Anothers's Arms	3:54
+2	Oceans	5:21
+2	A Sky Full of Stars	4:28
+2	O	7:46
+2	O	7:46
+3	A Head Full of Dreams	3:43
+3	Birds	3:49
+3	Hymn for the Weekend	4:18
+3	Everglow	4:42
+3	Adventure of a Lifetime	4:23
+3	Fun	4:27
+3	Kaleidoscope	1:51
+3	Army of One	6:16
+3	Amazing Day	4:31
+3	Colour Spectrum	1:00
+3	Up&Up	6:45
+4	Don´t Panic	2:17
+4	Shiver	4:59
+4	Spies	5:18
+4	Sparks	3:47
+4	Yellow	4:29
+4	Trouble	4:30
+4	Parachutes	0:46
+4	High Spees	4:14
+4	We Never Change	4:09
+4	Everything's Not Lost	7:15
+5	Square One	4:47
+5	What If	4:57
+5	White Shadows	5:28
+5	Fix You	4:54
+5	Talk	5:11
+5	X&Y	4:34
+5	Speed of Sound	4:48
+5	A Message	4:45
+5	Low	5:32
+5	The Hardest Part	4:25
+5	Swallowed In the Sea	3:58
+5	Twisted Logic	4:32
+5	Til Kingdom Come	4:11

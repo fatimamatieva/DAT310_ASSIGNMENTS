@@ -1,2 +1,5 @@
 1	Coldplay	A Rush of Blood to the Head	Coldplay-ARushofBlood.jpg
-2	Guns N' Roses	Use Your Illusion I	GnR-UseYourIllusion1.jpg
+2	Coldplay	Ghost Stories	Ghost_stories.jpg
+3	Coldplay	A Head Full of Dreams	Coldplay_A_Head_Full_of_Dreams.png
+4	Coldplay	Parachutes	coldplay_parachutes.jpeg
+5	Coldplay	X&Y	Coldplay_X&Y.png
