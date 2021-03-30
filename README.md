@@ -14,7 +14,7 @@
 | [#5 Vue Memory](assignment-5/) | 12/02 | 26/02 | 1.3p | https://github.com/dat310-spring21/solutions/tree/master/5 |
 | [#6 Templates](assignment-6/) | 26/02 | 12/03 | 1p |  |
 | [#7 AJAX](assignment-7/) | 12/03 | 26/03 | 1p |  |
-| [#8 Online shop](assignment-8/) | 26/03 | 09/04 | 1p |  |
+| [#8 Rest Backend](assignment-8/) | 29/03 | 16/04 | 1p |  |
 | [#9 Circuit Wars](assignment-9/) |  |  | 1p | cancelled |
 
 The exam project will start on 12/04.
