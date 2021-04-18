@@ -138,10 +138,9 @@
         </div>
 <script>
     contacts = new Array();
-
 async function login(){
-    let username = document.getElementById("username").value;
-    let password = document.getElementById("password").value;
+    let un = document.getElementById("username").value;
+    let pw = document.getElementById("password").value;
     let form = document.getElementById("loginform");
     form.style.display = "none";
 
@@ -150,14 +149,17 @@ async function login(){
         headers: {
             "Content-Type": "application/x-www-form-urlencoded",
         },
-        body: "username=" + username + "&password=" + password
+        body: "username=" + un + "&password=" + pw
     });
 
-    let user = await response.json();
+    let usr = await response.json();
+
     let logoutform = document.getElementById("logoutform");
+
     logoutform.style.display = "block";
 
-    user.addresses.forEach((address)=>{
+    usr.addresses.forEach((address)=>{
+
         contacts.push(new Entry(address.name,address.tel, address.email));
     });
     document.getElementById("address").style.display = "block";
